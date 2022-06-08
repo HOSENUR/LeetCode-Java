@@ -7,7 +7,10 @@ class Solution {
             for(int j=0;j<arr2.length;j++)
             {
                 if(Math.abs(arr1[i]-arr2[j])<=d)
+                {
                     flag=false;
+                break;
+                    }
             }
             if(flag==true)
                 c++;
